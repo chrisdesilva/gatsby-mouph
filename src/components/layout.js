@@ -25,7 +25,7 @@ const Layout = ({ children }) => (
             <div>
               © {new Date().getFullYear()} Mouphtaou Artist Management Built with
               {` `}
-              <a href="https://www.gatsbyjs.org">Gatsby</a>
+              <a className="text-black no-underline" href="https://www.gatsbyjs.org">Gatsby</a>
             </div>
           </footer>
         </div>

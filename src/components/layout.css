@@ -61,10 +61,20 @@
   * @import "utilities/skew-transforms";
   */
 
-  a {
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Staatliches');
+
+  .navLink {
     transition: all 300ms ease-in-out
   }
 
-  a:hover {
-    color: grey;
+  .navLink:hover {
+    color: #a0f0ed;
+  }
+
+  body {
+    font-family: 'Staatliches', cursive;
+  }
+
+  main {
+    font-family: 'Open Sans Condensed', sans-serif;
   }
