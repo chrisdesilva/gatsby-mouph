@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Bandpage from "../components/Bandpage"
 import photo from "../images/LIP.jpg"
 
