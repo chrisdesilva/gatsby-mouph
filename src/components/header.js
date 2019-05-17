@@ -34,6 +34,12 @@ const Header = ({ siteTitle }) => (
         >
           YOUTH & CANVAS
         </Link>
+        <Link
+          to="/contact"
+          className ="navLink hidden lg:inline text-white text-center no-underline mx-4 text-2xl"
+        >
+          CONTACT
+        </Link>
       </div>
     </div>
   </header>
